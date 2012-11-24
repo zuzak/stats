@@ -5,6 +5,7 @@
 	<link href="grid.css"   type="text/css" rel="stylesheet" media="screen" />
 	<link href="styles.css" type="text/css" rel="stylesheet" media="screen" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="scripts.js"></script>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 </head>
 <body>
@@ -36,7 +37,7 @@
 		</div>
 		<div class="column grid_3 borded">
 			<h2>Gross national debt</h2>
-			<p class="stat">&pound;000,000,000,000</p>
+			<p id="debt" class="stat">Loading...</p>
 		</div>
 	</div>
 	<div class="row">
@@ -61,7 +62,7 @@
 			<p class="stat">Arch Linux</p>
 		</div>
 		<div class="column grid_2 borded">
-			<h2>Planets with life</h2>
+			<h2>Known planets with life</h2>
 			<p class="stat">0000001</p>
 		</div>
 		<div class="column grid_2 borded">
