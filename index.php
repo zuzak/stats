@@ -4,6 +4,7 @@
 	<title>Stats</title>
 	<link href="grid.css"   type="text/css" rel="stylesheet" media="screen" />
 	<link href="styles.css" type="text/css" rel="stylesheet" media="screen" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 </head>
 <body>
