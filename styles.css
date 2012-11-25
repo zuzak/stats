@@ -37,6 +37,19 @@ h2 {
 	color:#a7d7f9;
 }
 
+.bar {
+	width:100px;
+	border:1px solid #a7d7f9;
+	height:1px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+.progress {
+	background-color:#a7d7f9;
+	width:50px;
+	display:block;	
+	height:1px;	
+}
 /* individual stats */
 
 #debt {

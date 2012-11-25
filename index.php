@@ -15,91 +15,27 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="column grid_2 borded">
-			<h2>Reddit karma</h2>
-			<p class="stat">000 &middot; 000</p>
-		</div>
-		<div class="column grid_2 borded">
-			<h2>Time at Uni</h2>
-			<p class="stat">000 days</p>
-		</div>
-		<div class="column grid_2 borded">
-			<h2>Nethack games played</h2>
-			<p class="stat">000</p>
-		</div>
-		<div class="column grid_2 borded">
-			<h2>Nethack highscore</h2>
-			<p class="stat">0000</p>
-		</div>
-		<div class="column grid_1 borded">
-			<h2>IRC pings</h2>
-			<p class="stat">0000</p>
-		</div>
 		<div class="column grid_3 borded">
 			<h2>Gross national debt</h2>
 			<p id="debt" class="stat">Loading...</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="column grid_1 borded">
-			<h2>IRC log size</h2>
-			<p class="stat">000MB</p>
-		</div>
-		<div class="column grid_2 borded">
-			<h2>IRC status</h2>
-			<p class="stat">Online</p>
-		</div>
-		<div class="column grid_1 borded">
-			<h2>Weather</h2>
-			<p class="stat">Rain</p>
-		</div>
-		<div class="column grid_2 borded">
-			<h2>Current Browser</h2>
-			<p class="stat">Firefox</p>
-		</div>
-		<div class="column grid_2 borded">
-			<h2>Current OS</h2>
-			<p class="stat">Arch Linux</p>
 		</div>
 		<div class="column grid_2 borded">
 			<h2>Known planets with life</h2>
 			<p class="stat">0000001</p>
 		</div>
 		<div class="column grid_2 borded">
-			<h2>Steam profile</h2>
-			<p class="stat">lorem ipsum</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="column grid_2 borded">
-			<h2>University</h2>
-			<p class="stat">Aberystwyth</p>
-		</div>
-		<div class="column grid_6 borded">
-			<h2>Course</h2>
-			<p class="stat">Lorem ipsum dolor sit amet and so on and so forth</p>
-		</div>
-		<div class="column grid_3 borded">
-			<h2>Email</h2>
-			<p class="stat">xxxxxxx@xxxxxx.xxx</p>
-		</div>
-		<div class="column grid_1 borded">
-			<h2>IRC lines</h2>
-			<p class="stat">00</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="column grid_3 borded">
-			<h2>Facebook</h2>
-			<p class="stat">fb.me/abcdefghijk</p>
+			<h2>Births in the UK</h2>
+			<p id="births" class="stat">0</p>
+			<div class="bar"><span class="progress" id="birthbar" /></div>
 		</div>
 		<div class="column grid_2 borded">
-			<h2>Number of Tweets</h2>
-			<p class="stat">0000</p>
+			<h2>Deaths in the UK</h2>
+			<p id="deaths" class="stat">0</p>
+			<div class="bar"><span class="progress" id="deathbar" /></div>
 		</div>
 		<div class="column grid_2 borded">
-			<h2>Days since haircut</h2>
-			<p class="stat">00 days</p>
+			<h2>Population of UK</h2>
+			<p id="ukchange" class="stat">X</p>
 		</div>
 	</div>
 	<div class="row">
