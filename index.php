@@ -34,16 +34,38 @@
 			<div class="bar"><span class="progress" id="deathbar" /></div>
 		</div>
 		<div class="column grid_2 borded">
-			<h2>Population of UK</h2>
+			<h2>Population change of UK</h2>
 			<p id="ukchange" class="stat">X</p>
 		</div>
 		<div id="speeddial" class="column grid_1 borded">
 			<h2>Sim Speed</h2>
 			<p class="stat"><a id="speed" href="#">1:1</a></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column grid_2 borded">
+			<h2>Population change of DE</h2>
+			<p id="germanychange" class="stat">X</p>
+		</div>
+		<div class="column grid_1 borded">
+			<h2>Run time</h2>
+			<p id="runtime" class="stat">X</p>
+		</div>
+		<div class="column grid_2 borded">
+			<h2>Worldwide deaths</h2>
+			<p id="worlddeath" class="stat">X</p>
+		</div>
+		<div class="column grid_2 borded">
+			<h2>Worldwide births</h2>
+			<p id="worldbirth" class="stat">X</p>
+		</div>
+		<div class="column grid_2 borded">
+			<h2>Global population change</h2>
+			<p id="worldchange" class="stat">X</p>
 	</div>
 	<div class="row">
 		<div class="column grid_12" id="footer">
-			<p>(&copy; zuzak <?php echo date("Y"); ?> &middot; <a href="http://opensource.org/licenses/BSD-3-Clause">3 Clause BSD</a>)</p>
+			<p>(<a href="http://opensource.org/licenses/BSD-3-Clause">&copy zuzak <?php echo date('Y'); ?></a>)</p>
 		</div>
 	</div>
 </body>

@@ -60,3 +60,6 @@ h2 {
 a {
 	color:inherit;
 }
+a:hover {
+	color:red;
+}
