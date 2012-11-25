@@ -1,9 +1,9 @@
 $(document).ready(function() {
 //$('#debt').text('foo');
-var foo;
-foo = 0;
+var debt;
+debt = 0;
 setInterval(function(){
-     foo = foo + 3;
-     $('#debt').text('£'+foo);
-        }, 1);
+     debt = debt + 31;
+     $('#debt').text('£'+debt);
+        }, 10);
 });
