@@ -62,6 +62,21 @@
 		<div class="column grid_2 borded">
 			<h2>Global population change</h2>
 			<p id="worldchange" class="stat">X</p>
+		</div>
+		<div class="column grid_2 borded">
+			<h2>Tweets sent</h2>
+			<p id="tweets" class="stat">X</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column grid_2 borded">
+			<h2>K-root DNS lookups</h2>
+			<p id="kdns" class="stat">X</p>
+		</div>
+		<div class="column grid_2 borded">
+			<h2>Global root DNS lookups</h2>
+			<p id="dns" class="stat">X</p>
+		</div>
 	</div>
 	<div class="row">
 		<div class="column grid_12" id="footer">

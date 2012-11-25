@@ -15,7 +15,11 @@ $(document).ready(function() {
      	$('#worlddeath').text(Math.floor(count/57));
      	$('#worldbirth').text(Math.floor(count/24));
      	$('#worldchange').text(Math.floor(count/24)-Math.floor(count/57));
+     	$('#tweets').text(Math.floor(count*24));
+     	$('#kdns').text(Math.floor(count*2)); // k gets 2000/s or so, there's 13
+     	$('#dns').text(Math.floor(count*2*13));
 	}, 10);
+		//$('#dns').text(Math.floor(count*2*13));
 	$('#speed').click(function(){
 		if (speed == 10000000000) {
 			speed = 1;
