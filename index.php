@@ -11,7 +11,7 @@
 <body>
 	<div class="row">
 		<div class="column grid_12 borded">
-			<h1>STATS!!!</h1>
+			<h1>Since reloading this page...</h1>
 		</div>
 	</div>
 	<div class="row">
@@ -37,6 +37,9 @@
 			<h2>Population of UK</h2>
 			<p id="ukchange" class="stat">X</p>
 		</div>
+		<div id="speeddial" class="column grid_1 borded">
+			<h2>Sim Speed</h2>
+			<p class="stat"><a id="speed" href="#">1:1</a></p>
 	</div>
 	<div class="row">
 		<div class="column grid_12" id="footer">
